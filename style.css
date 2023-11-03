@@ -1,0 +1,33 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(50, 53, 216);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(50, 53, 216);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(28, 30, 158);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  /* Rounded border */
+hr.rounded {
+    border-top: 4px solid #bbb;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
